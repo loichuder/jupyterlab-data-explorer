@@ -75,7 +75,7 @@ function activate(app: JupyterFrontEnd, registry: Registry): void {
                 return res;
               })
             )
-          : null
+          : { data: {} }
     ),
     createConverter(
       {
